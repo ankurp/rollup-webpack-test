@@ -6,7 +6,9 @@
     "build:webpack": "cross-env BABEL_ENV=webpack webpack",
     "build": "npm run build:rollup && npm run build:webpack"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^15.5.4"
+  },
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
@@ -20,7 +22,7 @@
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-replace": "^1.1.1",
     "rollup-plugin-uglify": "^1.0.1",
-    "webpack": "^2.2.0"
+    "webpack": "2.4.1"
   },
   "license": "MIT",
   "private": true
